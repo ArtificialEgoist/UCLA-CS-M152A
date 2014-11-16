@@ -1,0 +1,28 @@
+Command line:
+   OctaveSelector_OctaveSelector_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51017
+
+Sat May 31 13:35:02 2014
+
+
+ Elaboration Time: 0.0624 sec
+
+ Current Memory Usage: 674.087 Meg
+
+ Total Signals          : 57
+ Total Nets             : 36
+ Total Signal Drivers   : 11
+ Total Blocks           : 11
+ Total Primitive Blocks : 9
+ Total Processes        : 9
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 521
+
+ Total Simulation Time: 0.0624 sec
+
+ Current Memory Usage: 674.087 Meg
+
+Sat May 31 13:35:19 2014
+

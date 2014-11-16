@@ -1,0 +1,24 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/NathanCT/Homework/Junior Year Q3/EE M116L/Lab 6 (Design Lab)/Tests/PortableKeyboard/OctaveSelector_OctaveSelector_sch_tb_isim_beh.exe -prj C:/NathanCT/Homework/Junior Year Q3/EE M116L/Lab 6 (Design Lab)/Tests/PortableKeyboard/OctaveSelector_OctaveSelector_sch_tb_beh.prj work.OctaveSelector_OctaveSelector_sch_tb 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/NathanCT/Homework/Junior Year Q3/EE M116L/Lab 6 (Design Lab)/Tests/PortableKeyboard/OctaveSelector.vhf" into library work
+Parsing VHDL file "C:/NathanCT/Homework/Junior Year Q3/EE M116L/Lab 6 (Design Lab)/Tests/PortableKeyboard/OctaveSelectorTest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture fdc_v of entity FDC [\FDC('0')\]
+Compiling architecture vcc_v of entity VCC [vcc_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture behavioral of entity OctaveSelector [octaveselector_default]
+Compiling architecture behavioral of entity octaveselector_octaveselector_sc...
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 13 VHDL Units
+Built simulation executable C:/NathanCT/Homework/Junior Year Q3/EE M116L/Lab 6 (Design Lab)/Tests/PortableKeyboard/OctaveSelector_OctaveSelector_sch_tb_isim_beh.exe
+Fuse Memory Usage: 47156 KB
+Fuse CPU Usage: 686 ms

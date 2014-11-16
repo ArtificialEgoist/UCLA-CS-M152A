@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl OctaveSelector_drc.vhf -w {C:/NathanCT/Homework/Junior Year Q3/EE M116L/Lab 6 (Design Lab)/Tests/PortableKeyboard/OctaveSelector.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym OctaveSelector {C:/NathanCT/Homework/Junior Year Q3/EE M116L/Lab 6 (Design Lab)/Tests/PortableKeyboard/OctaveSelector.sch} {C:/NathanCT/Homework/Junior Year Q3/EE M116L/Lab 6 (Design Lab)/Tests/PortableKeyboard/OctaveSelector.sym} 

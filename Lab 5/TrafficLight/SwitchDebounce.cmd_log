@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym SwitchDebounce C:/ntung/TrafficLight2/SwitchDebounce.sch C:/ntung/TrafficLight2/SwitchDebounce.sym 

@@ -1,0 +1,7 @@
+MODULE ButtonDebouncer
+	SUBMODULE DebounceSync
+		INSTANCE XLXI_1
+	SUBMODULE DebounceSync
+		INSTANCE XLXI_2
+	SUBMODULE ClockModule
+		INSTANCE XLXI_5

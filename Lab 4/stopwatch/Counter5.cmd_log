@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym Counter5 C:/ntung/stopwatch/Counter5.sch C:/ntung/stopwatch/Counter5.sym 

@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym Timer C:/ntung/TrafficLight2/Timer.sch C:/ntung/TrafficLight2/Timer.sym 

@@ -1,0 +1,14 @@
+[Inputs]
+sw3
+sw2
+sw1
+sw0
+[Outputs]
+a
+b
+c
+d
+e
+f
+g
+[BiDir]

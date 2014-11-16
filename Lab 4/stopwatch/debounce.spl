@@ -1,0 +1,6 @@
+[Inputs]
+SIG_IN
+CLK
+[Outputs]
+SIG_OUT
+[BiDir]

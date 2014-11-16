@@ -1,0 +1,2 @@
+vhdtdtfi -lib work KeyEncoder.vhd -prj PortableKeyboard -o KeyEncoder.spl -module KeyEncoder -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w KeyEncoder.spl C:/ntung/PortableKeyboard/KeyEncoder.sym 

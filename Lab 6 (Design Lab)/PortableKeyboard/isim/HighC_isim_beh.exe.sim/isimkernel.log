@@ -1,0 +1,28 @@
+Command line:
+   HighC_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51093
+
+Thu May 29 14:41:40 2014
+
+
+ Elaboration Time: 0.0624 sec
+
+ Current Memory Usage: 828.236 Meg
+
+ Total Signals          : 5
+ Total Nets             : 5
+ Total Signal Drivers   : 3
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 365
+
+ Total Simulation Time: 0.0624 sec
+
+ Current Memory Usage: 828.236 Meg
+
+Thu May 29 14:41:43 2014
+

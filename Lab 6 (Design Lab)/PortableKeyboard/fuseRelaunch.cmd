@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/NathanCT/Homework/Junior Year Q3/EE M116L/Lab 6 (Design Lab)/Tests/PortableKeyboard/OctaveSelector_OctaveSelector_sch_tb_isim_beh.exe" -prj "C:/NathanCT/Homework/Junior Year Q3/EE M116L/Lab 6 (Design Lab)/Tests/PortableKeyboard/OctaveSelector_OctaveSelector_sch_tb_beh.prj" "work.OctaveSelector_OctaveSelector_sch_tb" 

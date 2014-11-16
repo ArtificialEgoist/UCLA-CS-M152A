@@ -1,0 +1,4 @@
+vhdtdtfi -lib work B5.vhd -prj PortableKeyboard -o B5.spl -module B5 -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 B5.spl C:/ntung/PortableKeyboard/B5.sym 
+vhdtdtfi -lib work B5.vhd -prj PortableKeyboard -o B5.spl -module B5 -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w B5.spl {C:/NathanCT/Homework/Junior Year Q3/EE M116L/Lab 6 (Design Lab)/Tests/PortableKeyboard/B5.sym} 

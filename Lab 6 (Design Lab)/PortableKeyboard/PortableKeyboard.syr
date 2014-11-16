@@ -1,0 +1,595 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: PortableKeyboard.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PortableKeyboard.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PortableKeyboard"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : PortableKeyboard
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\ntung\PortableKeyboard\KeyEncoder.vhd" into library work
+Parsing entity <KeyEncoder>.
+Parsing architecture <Behavioral> of entity <keyencoder>.
+Parsing VHDL file "C:\ntung\PortableKeyboard\HighC.vhd" into library work
+Parsing entity <HighC>.
+Parsing architecture <Behavioral> of entity <highc>.
+Parsing VHDL file "C:\ntung\PortableKeyboard\G5.vhd" into library work
+Parsing entity <G5>.
+Parsing architecture <Behavioral> of entity <g5>.
+Parsing VHDL file "C:\ntung\PortableKeyboard\F5.vhd" into library work
+Parsing entity <F5>.
+Parsing architecture <Behavioral> of entity <f5>.
+Parsing VHDL file "C:\ntung\PortableKeyboard\E5.vhd" into library work
+Parsing entity <E5>.
+Parsing architecture <Behavioral> of entity <e5>.
+Parsing VHDL file "C:\ntung\PortableKeyboard\D5.vhd" into library work
+Parsing entity <D5>.
+Parsing architecture <Behavioral> of entity <d5>.
+Parsing VHDL file "C:\ntung\PortableKeyboard\C5.vhd" into library work
+Parsing entity <C5>.
+Parsing architecture <Behavioral> of entity <c5>.
+Parsing VHDL file "C:\ntung\PortableKeyboard\B5.vhd" into library work
+Parsing entity <B5>.
+Parsing architecture <Behavioral> of entity <b5>.
+Parsing VHDL file "C:\ntung\PortableKeyboard\A5.vhd" into library work
+Parsing entity <A5>.
+Parsing architecture <Behavioral> of entity <a5>.
+Parsing VHDL file "C:\ntung\PortableKeyboard\PortableKeyboard.vhf" into library work
+Parsing entity <M8_1E_HXILINX_PortableKeyboard>.
+Parsing architecture <M8_1E_HXILINX_PortableKeyboard_V> of entity <m8_1e_hxilinx_portablekeyboard>.
+Parsing entity <PortableKeyboard>.
+Parsing architecture <BEHAVIORAL> of entity <portablekeyboard>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <PortableKeyboard> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <M8_1E_HXILINX_PortableKeyboard> (architecture <M8_1E_HXILINX_PortableKeyboard_V>) from library <work>.
+INFO:HDLCompiler:679 - "C:\ntung\PortableKeyboard\PortableKeyboard.vhf" Line 64. Case statement is complete. others clause is never selected
+
+Elaborating entity <HighC> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <B5> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <A5> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <G5> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <F5> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <E5> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <D5> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <C5> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <KeyEncoder> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:634 - "C:\ntung\PortableKeyboard\PortableKeyboard.vhf" Line 116: Net <XLXI_5_reset_openSignal> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\ntung\PortableKeyboard\PortableKeyboard.vhf" Line 117: Net <XLXI_7_reset_openSignal> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\ntung\PortableKeyboard\PortableKeyboard.vhf" Line 118: Net <XLXI_9_reset_openSignal> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\ntung\PortableKeyboard\PortableKeyboard.vhf" Line 119: Net <XLXI_10_reset_openSignal> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\ntung\PortableKeyboard\PortableKeyboard.vhf" Line 120: Net <XLXI_11_reset_openSignal> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\ntung\PortableKeyboard\PortableKeyboard.vhf" Line 121: Net <XLXI_12_reset_openSignal> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\ntung\PortableKeyboard\PortableKeyboard.vhf" Line 122: Net <XLXI_14_reset_openSignal> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\ntung\PortableKeyboard\PortableKeyboard.vhf" Line 123: Net <XLXI_17_reset_openSignal> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <PortableKeyboard>.
+    Related source file is "C:\ntung\PortableKeyboard\PortableKeyboard.vhf".
+    Set property "HU_SET = XLXI_4_0" for instance <XLXI_4>.
+    Set property "LOC = V10" for signal <CLK>.
+    Set property "LOC = V9" for signal <SwitchA>.
+    Set property "LOC = T9" for signal <SwitchB>.
+    Set property "LOC = T5" for signal <SwitchC>.
+    Set property "LOC = V8" for signal <SwitchD>.
+    Set property "LOC = U8" for signal <SwitchE>.
+    Set property "LOC = N8" for signal <SwitchF>.
+    Set property "LOC = M8" for signal <SwitchG>.
+    Set property "LOC = T10" for signal <SwitchHighC>.
+    Set property "LOC = T12" for signal <Note>.
+WARNING:Xst:653 - Signal <XLXI_5_reset_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_7_reset_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_9_reset_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_10_reset_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_11_reset_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_12_reset_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_14_reset_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_17_reset_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <PortableKeyboard> synthesized.
+
+Synthesizing Unit <M8_1E_HXILINX_PortableKeyboard>.
+    Related source file is "C:\ntung\PortableKeyboard\PortableKeyboard.vhf".
+    Found 1-bit 8-to-1 multiplexer for signal <S2_D7_Mux_0_o> created at line 55.
+    Summary:
+	inferred   2 Multiplexer(s).
+Unit <M8_1E_HXILINX_PortableKeyboard> synthesized.
+
+Synthesizing Unit <HighC>.
+    Related source file is "C:\ntung\PortableKeyboard\HighC.vhd".
+    Found 16-bit register for signal <counter>.
+    Found 1-bit register for signal <temp>.
+    Found 16-bit adder for signal <counter[15]_GND_7_o_add_1_OUT> created at line 55.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  17 D-type flip-flop(s).
+Unit <HighC> synthesized.
+
+Synthesizing Unit <B5>.
+    Related source file is "C:\ntung\PortableKeyboard\B5.vhd".
+    Found 16-bit register for signal <counter>.
+    Found 1-bit register for signal <temp>.
+    Found 16-bit adder for signal <counter[15]_GND_8_o_add_1_OUT> created at line 55.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  17 D-type flip-flop(s).
+Unit <B5> synthesized.
+
+Synthesizing Unit <A5>.
+    Related source file is "C:\ntung\PortableKeyboard\A5.vhd".
+    Found 16-bit register for signal <counter>.
+    Found 1-bit register for signal <temp>.
+    Found 16-bit adder for signal <counter[15]_GND_9_o_add_1_OUT> created at line 55.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  17 D-type flip-flop(s).
+Unit <A5> synthesized.
+
+Synthesizing Unit <G5>.
+    Related source file is "C:\ntung\PortableKeyboard\G5.vhd".
+    Found 16-bit register for signal <counter>.
+    Found 1-bit register for signal <temp>.
+    Found 16-bit adder for signal <counter[15]_GND_10_o_add_1_OUT> created at line 55.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  17 D-type flip-flop(s).
+Unit <G5> synthesized.
+
+Synthesizing Unit <F5>.
+    Related source file is "C:\ntung\PortableKeyboard\F5.vhd".
+    Found 17-bit register for signal <counter>.
+    Found 1-bit register for signal <temp>.
+    Found 17-bit adder for signal <counter[16]_GND_11_o_add_1_OUT> created at line 55.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  18 D-type flip-flop(s).
+Unit <F5> synthesized.
+
+Synthesizing Unit <E5>.
+    Related source file is "C:\ntung\PortableKeyboard\E5.vhd".
+    Found 17-bit register for signal <counter>.
+    Found 1-bit register for signal <temp>.
+    Found 17-bit adder for signal <counter[16]_GND_12_o_add_1_OUT> created at line 55.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  18 D-type flip-flop(s).
+Unit <E5> synthesized.
+
+Synthesizing Unit <D5>.
+    Related source file is "C:\ntung\PortableKeyboard\D5.vhd".
+    Found 17-bit register for signal <counter>.
+    Found 1-bit register for signal <temp>.
+    Found 17-bit adder for signal <counter[16]_GND_13_o_add_1_OUT> created at line 55.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  18 D-type flip-flop(s).
+Unit <D5> synthesized.
+
+Synthesizing Unit <C5>.
+    Related source file is "C:\ntung\PortableKeyboard\C5.vhd".
+    Found 17-bit register for signal <counter>.
+    Found 1-bit register for signal <temp>.
+    Found 17-bit adder for signal <counter[16]_GND_14_o_add_1_OUT> created at line 55.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  18 D-type flip-flop(s).
+Unit <C5> synthesized.
+
+Synthesizing Unit <KeyEncoder>.
+    Related source file is "C:\ntung\PortableKeyboard\KeyEncoder.vhd".
+    Summary:
+	inferred  21 Multiplexer(s).
+Unit <KeyEncoder> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 8
+ 16-bit adder                                          : 4
+ 17-bit adder                                          : 4
+# Registers                                            : 16
+ 1-bit register                                        : 8
+ 16-bit register                                       : 4
+ 17-bit register                                       : 4
+# Multiplexers                                         : 23
+ 1-bit 2-to-1 multiplexer                              : 22
+ 1-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <A5>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <A5> synthesized (advanced).
+
+Synthesizing (advanced) Unit <B5>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <B5> synthesized (advanced).
+
+Synthesizing (advanced) Unit <C5>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <C5> synthesized (advanced).
+
+Synthesizing (advanced) Unit <D5>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <D5> synthesized (advanced).
+
+Synthesizing (advanced) Unit <E5>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <E5> synthesized (advanced).
+
+Synthesizing (advanced) Unit <F5>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <F5> synthesized (advanced).
+
+Synthesizing (advanced) Unit <G5>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <G5> synthesized (advanced).
+
+Synthesizing (advanced) Unit <HighC>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <HighC> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 8
+ 16-bit up counter                                     : 4
+ 17-bit up counter                                     : 4
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+# Multiplexers                                         : 23
+ 1-bit 2-to-1 multiplexer                              : 22
+ 1-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <PortableKeyboard> ...
+
+Optimizing unit <M8_1E_HXILINX_PortableKeyboard> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block PortableKeyboard, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 140
+ Flip-Flops                                            : 140
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : PortableKeyboard.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 570
+#      GND                         : 1
+#      INV                         : 9
+#      LUT1                        : 124
+#      LUT2                        : 70
+#      LUT3                        : 1
+#      LUT4                        : 39
+#      LUT5                        : 4
+#      LUT6                        : 64
+#      MUXCY                       : 124
+#      MUXF7                       : 1
+#      VCC                         : 1
+#      XORCY                       : 132
+# FlipFlops/Latches                : 140
+#      FD                          : 140
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 9
+#      IBUF                        : 8
+#      OBUF                        : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             140  out of  18224     0%  
+ Number of Slice LUTs:                  311  out of   9112     3%  
+    Number used as Logic:               311  out of   9112     3%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    311
+   Number with an unused Flip Flop:     171  out of    311    54%  
+   Number with an unused LUT:             0  out of    311     0%  
+   Number of fully used LUT-FF pairs:   140  out of    311    45%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          10
+ Number of bonded IOBs:                  10  out of    232     4%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 140   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.867ns (Maximum Frequency: 258.575MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 5.589ns
+   Maximum combinational path delay: 8.432ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 3.867ns (frequency: 258.575MHz)
+  Total number of paths / destination ports: 3476 / 140
+-------------------------------------------------------------------------
+Delay:               3.867ns (Levels of Logic = 3)
+  Source:            XLXI_9/counter_12 (FF)
+  Destination:       XLXI_9/counter_0 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: XLXI_9/counter_12 to XLXI_9/counter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.981  XLXI_9/counter_12 (XLXI_9/counter_12)
+     LUT6:I0->O            2   0.203   0.721  XLXI_9/PWR_9_o_counter[15]_equal_1_o<15>4_SW0 (N16)
+     LUT6:I4->O           16   0.203   1.005  XLXI_9/PWR_9_o_counter[15]_equal_1_o<15>4 (XLXI_9/PWR_9_o_counter[15]_equal_1_o)
+     LUT2:I1->O            1   0.205   0.000  XLXI_9/counter_0_rstpot (XLXI_9/counter_0_rstpot)
+     FD:D                      0.102          XLXI_9/counter_0
+    ----------------------------------------
+    Total                      3.867ns (1.160ns logic, 2.707ns route)
+                                       (30.0% logic, 70.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 8 / 1
+-------------------------------------------------------------------------
+Offset:              5.589ns (Levels of Logic = 5)
+  Source:            XLXI_7/temp (FF)
+  Destination:       Note (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: XLXI_7/temp to Note
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.864  XLXI_7/temp (XLXI_7/temp)
+     begin scope: 'XLXI_4:D6'
+     LUT6:I2->O            1   0.203   0.000  Mmux_S2_D7_Mux_0_o_3 (Mmux_S2_D7_Mux_0_o_3)
+     MUXF7:I1->O           1   0.140   0.580  Mmux_S2_D7_Mux_0_o_2_f7 (S2_D7_Mux_0_o)
+     LUT2:I1->O            1   0.205   0.579  Mmux_O11 (O)
+     end scope: 'XLXI_4:O'
+     OBUF:I->O                 2.571          Note_OBUF (Note)
+    ----------------------------------------
+    Total                      5.589ns (3.566ns logic, 2.023ns route)
+                                       (63.8% logic, 36.2% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 38 / 1
+-------------------------------------------------------------------------
+Delay:               8.432ns (Levels of Logic = 8)
+  Source:            SwitchE (PAD)
+  Destination:       Note (PAD)
+
+  Data Path: SwitchE to Note
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.755  SwitchE_IBUF (SwitchE_IBUF)
+     LUT2:I0->O            1   0.203   0.808  XLXI_52/Mmux_Encoding01_SW0 (N12)
+     LUT6:I3->O            2   0.205   0.961  XLXI_52/Mmux_Encoding01 (XLXN_87)
+     begin scope: 'XLXI_4:S0'
+     LUT6:I1->O            1   0.203   0.000  Mmux_S2_D7_Mux_0_o_3 (Mmux_S2_D7_Mux_0_o_3)
+     MUXF7:I1->O           1   0.140   0.580  Mmux_S2_D7_Mux_0_o_2_f7 (S2_D7_Mux_0_o)
+     LUT2:I1->O            1   0.205   0.579  Mmux_O11 (O)
+     end scope: 'XLXI_4:O'
+     OBUF:I->O                 2.571          Note_OBUF (Note)
+    ----------------------------------------
+    Total                      8.432ns (4.749ns logic, 3.683ns route)
+                                       (56.3% logic, 43.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    3.867|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.94 secs
+ 
+--> 
+
+Total memory usage is 271268 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   16 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

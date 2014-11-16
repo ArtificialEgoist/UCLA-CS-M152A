@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="DebounceSync">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2014-5-22T11:17:26</timestamp>
+    <pin polarity="Input" x="0" y="-352" name="INPUT_FIRST" />
+    <pin polarity="Input" x="0" y="-288" name="CLK_2" />
+    <pin polarity="Input" x="0" y="-224" name="INPUT_FOURTH" />
+    <pin polarity="Input" x="0" y="-160" name="INPUT_THIRD" />
+    <pin polarity="Input" x="0" y="-96" name="INPUT_SECOND" />
+    <pin polarity="Input" x="0" y="-32" name="CLK" />
+    <pin polarity="Output" x="512" y="-352" name="OUTPUT_FIRST" />
+    <pin polarity="Output" x="512" y="-256" name="OUTPUT_FOURTH" />
+    <pin polarity="Output" x="512" y="-160" name="OUTPUT_THIRD" />
+    <pin polarity="Output" x="512" y="-64" name="OUTPUT_SECOND" />
+    <graph>
+        <rect width="384" x="64" y="-384" height="384" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="256" y="-392" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin INPUT_FIRST" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin CLK_2" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin INPUT_FOURTH" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin INPUT_THIRD" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin INPUT_SECOND" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin CLK" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-352" type="pin OUTPUT_FIRST" />
+        <line x2="512" y1="-352" y2="-352" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-256" type="pin OUTPUT_FOURTH" />
+        <line x2="512" y1="-256" y2="-256" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-160" type="pin OUTPUT_THIRD" />
+        <line x2="512" y1="-160" y2="-160" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-64" type="pin OUTPUT_SECOND" />
+        <line x2="512" y1="-64" y2="-64" x1="448" />
+    </graph>
+</symbol>

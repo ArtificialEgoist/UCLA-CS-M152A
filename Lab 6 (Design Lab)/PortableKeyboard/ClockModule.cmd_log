@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym ClockModule {C:/NathanCT/Homework/Junior Year Q3/EE M116L/Lab 6 (Design Lab)/Tests/PortableKeyboard/ClockModule.sch} {C:/NathanCT/Homework/Junior Year Q3/EE M116L/Lab 6 (Design Lab)/Tests/PortableKeyboard/ClockModule.sym} 

@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -refsym Counter2 C:/ntung/TrafficLight2/Counter2.sch C:/ntung/TrafficLight2/Counter2.sym 

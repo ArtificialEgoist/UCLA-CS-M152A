@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/ntung/PortableKeyboard/HighC.xst" -ofn "C:/ntung/PortableKeyboard/HighC.syr" 
+xst -intstyle ise -ifn "C:/ntung/PortableKeyboard/HighC.xst" -ofn "C:/ntung/PortableKeyboard/HighC.syr" 
+vhdtdtfi -lib work HighC.vhd -prj PortableKeyboard -o HighC.spl -module HighC -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 HighC.spl C:/ntung/PortableKeyboard/HighC.sym 
+vhdtdtfi -lib work HighC.vhd -prj PortableKeyboard -o HighC.spl -module HighC -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w HighC.spl {C:/NathanCT/Homework/Junior Year Q3/EE M116L/Lab 6 (Design Lab)/Tests/PortableKeyboard/HighC.sym} 

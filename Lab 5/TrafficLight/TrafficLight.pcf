@@ -1,0 +1,20 @@
+//! **************************************************************************
+// Written by: Map P.68d on Thu May 22 14:15:03 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Ys" LOCATE = SITE "V15" LEVEL 1;
+COMP "CLK" LOCATE = SITE "V10" LEVEL 1;
+COMP "Walk" LOCATE = SITE "D9" LEVEL 1;
+COMP "WalkLight" LOCATE = SITE "U16" LEVEL 1;
+COMP "Gm" LOCATE = SITE "N11" LEVEL 1;
+COMP "WalkSound" LOCATE = SITE "T12" LEVEL 1;
+COMP "Gs" LOCATE = SITE "U15" LEVEL 1;
+COMP "Clock" LOCATE = SITE "V16" LEVEL 1;
+COMP "Reset" LOCATE = SITE "C4" LEVEL 1;
+COMP "Rm" LOCATE = SITE "T11" LEVEL 1;
+COMP "Rs" LOCATE = SITE "M11" LEVEL 1;
+COMP "Ym" LOCATE = SITE "R11" LEVEL 1;
+COMP "Sensor" LOCATE = SITE "T10" LEVEL 1;
+SCHEMATIC END;
+

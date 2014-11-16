@@ -1,0 +1,15 @@
+[Inputs]
+timeout
+reset
+sensor
+walk
+[Outputs]
+WalkReset
+Rm
+Ym
+Gm
+Rs
+Ys
+Gs
+=I[1:0]=
+[BiDir]

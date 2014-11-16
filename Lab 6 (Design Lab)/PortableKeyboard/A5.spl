@@ -1,0 +1,6 @@
+[Inputs]
+CLK
+reset
+[Outputs]
+NCLK
+[BiDir]

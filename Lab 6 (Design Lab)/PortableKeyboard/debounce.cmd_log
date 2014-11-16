@@ -1,0 +1,2 @@
+vhdtdtfi -lib work debounce.vhd -prj PortableKeyboard -o debounce.spl -module debounce -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w debounce.spl {C:/NathanCT/Homework/Junior Year Q3/EE M116L/Lab 6 (Design Lab)/Tests/PortableKeyboard/debounce.sym} 

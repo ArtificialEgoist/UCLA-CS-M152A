@@ -1,0 +1,2 @@
+vhdl isim_temp "HighC.vhd"
+vhdl isim_temp "HighCTest.vhd"

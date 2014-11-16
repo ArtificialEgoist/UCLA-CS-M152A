@@ -1,0 +1,5 @@
+sch2sym -intstyle ise -family spartan6 -refsym DebounceSync C:/ntung/stopwatch/DebounceSync.sch C:/ntung/stopwatch/DebounceSync.sym 
+sch2sym -intstyle ise -family spartan6 -refsym DebounceSync C:/ntung/stopwatch/DebounceSync.sch C:/ntung/stopwatch/DebounceSync.sym 
+sch2sym -intstyle ise -family spartan6 -refsym DebounceSync C:/ntung/stopwatch/DebounceSync.sch C:/ntung/stopwatch/DebounceSync.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DebounceSync C:/ntung/stopwatch/DebounceSync.sch C:/ntung/stopwatch/DebounceSync.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DebounceSync C:/ntung/stopwatch/DebounceSync.sch C:/ntung/stopwatch/DebounceSync.sym 

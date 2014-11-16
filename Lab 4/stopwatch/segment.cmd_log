@@ -1,0 +1,2 @@
+vhdtdtfi -lib work segment.vhd -prj stopwatch -o segment.spl -module segment -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w segment.spl C:/ntung/stopwatch/segment.sym 
